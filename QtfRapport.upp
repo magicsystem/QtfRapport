@@ -1,0 +1,15 @@
+uses
+	CtrlLib,
+	Report;
+
+file
+	QtfRapport.h,
+	QtfRapport.cpp,
+	main.cpp,
+	gen.qtf,
+	QtfRapport.lay,
+	template.qtf;
+
+mainconfig
+	"" = "GUI MT";
+

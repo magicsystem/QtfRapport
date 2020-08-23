@@ -1,0 +1,6 @@
+LAYOUT(QtfRapportLayout, 540, 330)
+	ITEM(RichTextCtrl, RT, SetFrame(FieldFrame()).HSizePosZ(5, 5).VSizePosZ(40, 0))
+	ITEM(Button, BTN_LOAD, SetLabel(t_("Load")).LeftPosZ(5, 100).TopPosZ(5, 30))
+	ITEM(Button, BTN_PRINT, SetLabel(t_("Print")).LeftPosZ(115, 100).TopPosZ(5, 30))
+END_LAYOUT
+
